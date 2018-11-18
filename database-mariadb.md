@@ -1,5 +1,7 @@
-#Install 
-	mysql_secure_installation
+# Install 
+	`bash
+	 mysql_secure_installation
+	`
 
 # Show user
 	SELECT User,Host FROM mysql.user;
