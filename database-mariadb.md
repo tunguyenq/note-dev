@@ -22,15 +22,17 @@ GRANT ALL PRIVILEGES ON *.* To 'tunguyene'@'%' IDENTIFIED BY 'admin$123';
 
 ### Grant prefix
 ```sh
-	 GRANT ALL ON `bds_%`.* TO 'bds'@'localhost' ;
+GRANT ALL ON `bds_%`.* TO 'bds'@'localhost' ;
 ```
 
 ### WITH GRANT OPTION can make role
 	GRANT ALL PRIVILEGES ON [db].* TO '[username]'@'%' IDENTIFIED BY '[password]' WITH GRANT OPTION;
-	GRANT ALL PRIVILEGES ON mydb.* TO 'myuser'@'%' WITH GRANT OPTION;
+	GRANT ALL PRIVILEGES ON mydb.* TO '[username]'@'%' WITH GRANT OPTION;
 
-### show grant
-	 SHOW GRANTS FOR 'bloguser'@'%';
+### Show grant
+```sh
+SHOW GRANTS FOR 'bloguser'@'%';
+```
 
 ### Drop user
  	DROP USER IF EXISTS demo
