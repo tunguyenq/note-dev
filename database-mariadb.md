@@ -1,5 +1,6 @@
-# Install 
-	```console
+# Install
+ 
+	```sh
 	 mysql_secure_installation
 	```
 
