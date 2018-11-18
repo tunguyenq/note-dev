@@ -1,5 +1,5 @@
 # Install 
-	```bash
+	```console
 	 mysql_secure_installation
 	```
 
