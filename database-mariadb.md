@@ -13,12 +13,14 @@
 
 ```sh
 GRANT ALL ON [db].* TO '[username]'@'%' IDENTIFIED BY '[password]' WITH GRANT OPTION;
-	GRANT ALL PRIVILEGES ON dbTest.* To 'user'@'%' IDENTIFIED BY 'password';
-	GRANT ALL PRIVILEGES ON *.* To 'tunguyene'@'%' IDENTIFIED BY 'admin$123';
+GRANT ALL PRIVILEGES ON dbTest.* To 'user'@'%' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON *.* To 'tunguyene'@'%' IDENTIFIED BY 'admin$123';
 ```
 
-## grant prefix
- 	GRANT ALL ON `bds_%`.* TO 'bds'@'localhost' ;
+## Grant prefix
+```sh
+	 GRANT ALL ON `bds_%`.* TO 'bds'@'localhost' ;
+```
 
 ### WITH GRANT OPTION can make role
 	GRANT ALL PRIVILEGES ON [db].* TO '[username]'@'%' IDENTIFIED BY '[password]' WITH GRANT OPTION;
