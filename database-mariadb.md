@@ -17,7 +17,6 @@ show databases;
 ```sh
 GRANT ALL ON [db].* TO '[username]'@'%' IDENTIFIED BY '[password]' WITH GRANT OPTION;
 GRANT ALL PRIVILEGES ON dbTest.* To 'user'@'%' IDENTIFIED BY 'password';
-GRANT ALL PRIVILEGES ON *.* To 'tunguyene'@'%' IDENTIFIED BY 'admin$123';
 ```
 
 ### Grant prefix
